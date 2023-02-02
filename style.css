@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@100&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+body{
+    background-color:#DAC7C7;
+}
+
+h1{
+
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.padre{
+    text-align: center;
+    
+}
+
+.contenedor, #icono{
+    width: 480px;
+    height: 480px;
+    display: inline-block;
+    background-color: #FADD61;
+    border-radius: 6px;
+    padding: 20px 30px;
+    overflow:scroll;
+    text-align:left;
+}
+
+#info{
+    background-color: #87dfba;
+    text-align:left;
+
+}
