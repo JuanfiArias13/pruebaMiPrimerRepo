@@ -10,6 +10,8 @@ body{
     background-color:#DAC7C7;
 }
 
+/* primer punto de la página: Icono de la página, Divs y overflow*/
+
 h1{
 
     font-size: 40px;
@@ -28,15 +30,19 @@ p{
     width: 480px;
     height: 480px;
     display: inline-block;
-    background-color: #FADD61;
     border-radius: 6px;
     padding: 20px 30px;
     overflow:scroll;
     text-align:left;
+    background-color: #FADD61;
 }
 
 #info{
     background-color: #87dfba;
-    text-align:left;
+}
 
+/* segundo punto de la página: Cambiar el tipo de fuente en distintas zonas */
+
+.font2 p a{
+    font-family: 'Itim', cursive;
 }

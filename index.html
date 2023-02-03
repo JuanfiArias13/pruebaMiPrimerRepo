@@ -8,6 +8,7 @@
     <link rel="icon" href="img/icono.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">   
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> 
     
 </head>
 <body>
@@ -23,12 +24,18 @@
     </div>
 
     <div class="contenedor" id="info">
-        <h2></h2>
-        <p></p>
+        <h2>Divs y overflow</h2>
+        <p>
+            Para lograr este efecto de las cajas de colores utilizamos la etiqueta div, en HTML, para crear dos cajas y darles color con css, estos dos divs tienen la clase contenedor para darle estilos en comun en css como por ejemplo width, height,  <b>display:inline-block; (este para que dejen actuar como elementos de bloque y se nos permita tener dos en una misma linea, recordar que un elemento de bloque es aquel que toma toda la linea de nuestra página sin importar su contenido y el elemento en linea toma solo el espacio en la pagina que tenga su contedio se ajusta)</b> y con un id le damos aspectos mas "unicos" como por ejemplo el color, que como se podra apreciar son distintos en cada caja, no es el mismo color el que tenemos en "Icono de la página" que el que tenemos en "Divs y overflow". Y alfinal usamos un tercer div para meter a los dos primeros y poder centrarlos y con la propiedad "text-align:left;" en el ".contenedor" dentro del css logramos que no se centre el texto de nuestras dos cajas de colores.<br>
+            Y para lograr el efecto de scroll y que el contenido de las cajas no se salgan utilizamos la propiedad "overflow:scroll;" en el css, esta es una de las propiedades que ira en el ".contenedor" para que no tenga que repetirse en el codigo y se aplique a ambas cajas.
+        </p>
+    </div>
     </div>
 
+    <div class="font2">
+        <h2>Cambiar el tipo de fuente en distintas zonas</h2>
+        <p>Para tener distintos tipos de fuente en nuestro HTML lo unico que tenemos que hacer es ir a <a href="https://fonts.google.com/">Google Fonts</a> y seleccionar una fuente que nos guste, despues la agregamos al head con la etiqueta "link" y al css, para agregarla a un lugar en especifico, como por ejemplo algun p o un h1, podemos ponerle una clase y agregar en esa clase el codigo css o ponerle la clase a un div y llamarlo en css de la siguiente manera ".nombreDeLaClase p".</p>
     </div>
-    
 
 </body>
 </html>
